@@ -1,0 +1,160 @@
+{
+  "user": [
+    {
+      "id": "1",
+      "username": "JASIM MOHAMMAD",
+      "email": "jasim127md@gmail.com",
+      "phone": "6300530399",
+      "password": "127962",
+      "role": "admin"
+    },
+    {
+      "id": "b848",
+      "username": "angel",
+      "email": "jasim127md@gmail.com",
+      "phone": "6300530399",
+      "role": "campaigner",
+      "password": "127962"
+    },
+    {
+      "id": "a091",
+      "username": "jasim",
+      "email": "jasim@gmail.com",
+      "phone": "6300530399",
+      "role": "campaigner",
+      "password": "123456"
+    },
+    {
+      "id": "6b77",
+      "username": "murari",
+      "email": "murari@gmail.com",
+      "phone": "1122334455",
+      "role": "campaigner",
+      "password": "123456"
+    },
+    {
+      "id": "bb4e",
+      "username": "sandeep",
+      "email": "sandeep@gmail.com",
+      "phone": "9014709055",
+      "role": "campaigner",
+      "password": "123456"
+    }
+  ],
+  "addnewreg": [
+    {
+      "id": "9da2",
+      "name": "jasim",
+      "phone": "6300530399",
+      "email": "jasim127md@gmail.com",
+      "campaigner": "jasim",
+      "course": "ReactJs"
+    },
+    {
+      "id": "cba9",
+      "name": "angel",
+      "phone": "6300530399",
+      "email": "angel@gmail.com",
+      "campaigner": "jasim",
+      "course": "ReactJs"
+    },
+    {
+      "id": "d2d0",
+      "name": "Mohammad",
+      "phone": "7989005907",
+      "email": "mohammad@gmail.com",
+      "campaigner": "jasim",
+      "course": "Angular Training"
+    },
+    {
+      "id": "dd40",
+      "name": "Ram",
+      "phone": "8989632356",
+      "email": "ram@gmail.com",
+      "campaigner": "jasim",
+      "course": "Java"
+    },
+    {
+      "id": "5bc9",
+      "name": "Luke",
+      "phone": "9502233665",
+      "email": "luke@gmail.com",
+      "campaigner": "angel",
+      "course": "Angular Training"
+    },
+    {
+      "id": "76dd",
+      "name": "Sanjeeth Bae",
+      "phone": "25378956",
+      "email": "sanjee@gmial.com",
+      "campaigner": "murari",
+      "course": "ReactJs"
+    },
+    {
+      "id": "f068",
+      "name": "karim",
+      "phone": "9292929592",
+      "email": "karimulla53@gmail.com",
+      "campaigner": "sandeep",
+      "course": "ReactJs"
+    },
+    {
+      "id": "4a5c",
+      "name": "bhagya",
+      "phone": "6300554488",
+      "email": "bhagya@gmail.com",
+      "campaigner": "angel",
+      "course": "Angular Training"
+    },
+    {
+      "id": "8d21",
+      "name": "pranay anna",
+      "phone": "7878787878",
+      "email": "pranay@gmail.com",
+      "campaigner": "jasim",
+      "course": "ReactJs"
+    }
+  ],
+  "newcamps": [
+    {
+      "id": "290e",
+      "title": "ReactJs",
+      "description": "React is the library for web and native user interfaces. Build user interfaces out of individual pieces called components written in JavaScript.",
+      "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/React_Logo_SVG.svg/640px-React_Logo_SVG.svg.png",
+      "link": "http://localhost:3000/addnewreg",
+      "date": 1707849828862
+    },
+    {
+      "id": "cd53",
+      "title": "Angular Training",
+      "description": "AngularJS is a toolset for building the framework most suited to your application development. It is fully extensible and works well with other libraries.",
+      "imgUrl": "https://w7.pngwing.com/pngs/549/955/png-transparent-angularjs-javascript-jquery-directive-python-software-foundation-angle-triangle-logo.png",
+      "link": "http://localhost:3000/addnewreg",
+      "date": 1707850984560
+    },
+    {
+      "id": "8842",
+      "title": "Java",
+      "description": " Java is a high-level, versatile, and object-oriented programming language. It was developed by Sun Microsystems and is now owned by Oracle Corporation.",
+      "imgUrl": "https://www.ibm.com/content/dam/adobe-cms/instana/media_logo/Java.component.complex-narrative-xl.ts=1687977139856.png/content/adobe-cms/us/en/products/instana/supported-technologies/java-monitoring/_jcr_content/root/table_of_contents/body/content_section_styled/content-section-body/complex_narrative/logoimage",
+      "link": "http://localhost:3000/addnewreg",
+      "date": 1707886906793
+    },
+    {
+      "id": "b9c3",
+      "title": "PYTHON",
+      "description": "Certainly! \"Python\" typically refers to the Python programming language. Python is a high-level, interpreted programming language known for its readability and simplicity.",
+      "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/800px-Python-logo-notext.svg.png",
+      "link": "http://localhost:3000/addnewreg",
+      "date": 1707896257321
+    },
+    {
+      "id": "0d4e",
+      "title": "jasim",
+      "description": "React is the library for web and native user interfaces. Build user interfaces out of individual pieces called components written in JavaScript.",
+      "imgUrl": "https://solidstudio.io/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Flofvu8al%2Fproduction%2F39d6cef5649ed5c35b1420198a362baf1bff97a6-1280x939.jpg&w=1080&q=75",
+      "link": "http://localhost:3000/createcamp",
+      "date": 11
+    }
+  ]
+}

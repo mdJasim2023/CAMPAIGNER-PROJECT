@@ -1,38 +1,164 @@
-.App {
-  text-align: center;
+.p{
+    display: flex;
+    justify-content: center;
+    height: 92vh;
+    background-image: url(https://t3.ftcdn.net/jpg/02/92/90/56/360_F_292905667_yFUJNJPngYeRNlrRL4hApHWxuYyRY4kN.jpg);
+    background-size: cover;
+}
+.h1{
+    text-align: center;
+    text-shadow: 1px 1px 10px lightgrey;
+    font-size: 50px;
+    letter-spacing: 3px;
+
+}
+#form{
+    margin-top: 6%;
+    margin-left: 50%;
+    box-shadow: 10px 10px 25px rgb(194, 189, 189) !important;
+    width: 30%;
+}
+.loginbtn{
+    background-color: darkblue;
+    color: white;
+}
+.loginbtn:hover{
+    background-color: blueviolet;
+    transition: 0.6s;
+}
+.frm{
+    margin-top: 15%;
+
+}
+.frm:hover{
+    cursor: pointer;
+}
+#mainReg{
+    background: transparent;
+    backdrop-filter: blur(50px);
+    width: 30%;
+    height: 65vh;
+    margin: 0px auto;
+    box-shadow: 2px 2px 10px grey;
+    opacity: 0.9;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.parentReg{
+    padding: 75px;
+    height: 92vh;
+    background-image: url(https://e1.pxfuel.com/desktop-wallpaper/228/106/desktop-wallpaper-web-design-posted-by-samantha-anderson-website-development.jpg);
+    background-size: cover;
+}   
+.text-danger{
+    letter-spacing: 7px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.HomePageImg{
+    background-size: cover;
+    width: 100%;
+    height: 92vh;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.d{
+    width: 90%;
+    margin: auto;
+} 
+#mainReg button{
+    margin-left:15px;
 }
-
-.App-link {
-  color: #61dafb;
+#mainReg button:hover{
+    background-color: darkblue;
+    border: none;
+    transition: 0.7s;
+    color: white;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#mainReg h1{
+    letter-spacing: 4px;
+    text-transform:uppercase ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.adminMainDiv{
+    background-image: url(https://wallpapers.com/images/hd/plain-violet-vintage-floral-pattern-59cu81pdwsqtj3wp.webp);
+    background-size: cover;
+    height: 92vh;
+}
+.adminMainDiv h1{
+    font-size:100px;
+    color:darkgray ;
+    text-decoration: underline;
+    text-shadow: 10px 10px 5px black;
+    letter-spacing: 7px;
+}
+.adminMainDiv h1::first-letter{
+    color: red;
+}
+.AdminBtns{
+    margin: 0px auto;
+    padding: 20px;
+}
+.AdminBtns button:hover{
+    background-color:darkgreen;
+    border: none;
+    transition: ease-out 0.5s;
+    color: white;
+}
+.campmainDiv{
+    background-image: url(https://wallpapers.com/images/hd/plain-polished-brown-wood-48rp5ri8iz7wn85p.webp);
+    background-size: cover;
+    height: auto;
+}
+.campmainDiv h1{
+    font-size:80px;
+    color:grey ;
+    text-decoration: underline;
+    text-shadow: 10px 10px 5px black;
+    letter-spacing: 7px;
+    text-align: center;
+}
+.campmainDiv h1::first-letter{
+    color: red;
+}
+#navName h2{
+    font-size:25px;
+    color:darkgreen ;
+    text-shadow: 7px 7px 5px black;
+    letter-spacing: 2px;
+    text-align: center;
+    font-family: monospace;
+}
+#navName h2::first-letter{
+    color:red ;
+    font-size: 40px;
+}
+.headermainDiv{
+    background-color:rgb(59, 73, 141);
+}
+.navbar-nav{
+    display: flex;
+    gap: 30px;
+    margin-right: 40px;
+    font-size: 15px;
+    letter-spacing: 3px;
+    font-family:monospace;
+}
+.z{
+    margin-top: -20px;
+    color: red;
+}
+.z span{
+    margin-left:12px ;
+}
+.allcampaignerstab{
+    margin: 5% auto;
+}
+.candiatestab{
+    margin: 5% auto;
+}
+.cdb{
+    text-align: justify;
+}
+.a{
+    margin-left: 12px;
+    color: orangered;
+}
+.createCampForm{
+    margin: 0px auto;
 }
