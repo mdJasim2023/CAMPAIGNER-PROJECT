@@ -76,7 +76,8 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .adminMainDiv{
-    background-image: url(https://wallpapers.com/images/hd/plain-violet-vintage-floral-pattern-59cu81pdwsqtj3wp.webp);
+    /* background-image: url(https://wallpapers.com/images/hd/plain-violet-vintage-floral-pattern-59cu81pdwsqtj3wp.webp); */
+    background-color: lightgrey;
     background-size: cover;
     height: 92vh;
 }
@@ -84,7 +85,8 @@
     font-size:100px;
     color:darkgray ;
     text-decoration: underline;
-    text-shadow: 10px 10px 5px black;
+    text-shadow: 10px 10px 15px black;
+    stroke: 100px;
     letter-spacing: 7px;
 }
 .adminMainDiv h1::first-letter{
@@ -101,15 +103,16 @@
     color: white;
 }
 .campmainDiv{
-    background-image: url(https://wallpapers.com/images/hd/plain-polished-brown-wood-48rp5ri8iz7wn85p.webp);
+    /* background-image: url(https://wallpapers.com/images/hd/plain-polished-brown-wood-48rp5ri8iz7wn85p.webp); */
+    background-color: rgb(125, 117, 117);
     background-size: cover;
     height: auto;
 }
 .campmainDiv h1{
     font-size:80px;
-    color:grey ;
+    color:orange;
     text-decoration: underline;
-    text-shadow: 10px 10px 5px black;
+    text-shadow: 10px 10px 15px black;
     letter-spacing: 7px;
     text-align: center;
 }
@@ -161,4 +164,13 @@
 }
 .createCampForm{
     margin: 0px auto;
+    width: 60%;
+}
+.createCampMainDiv{
+    margin: 6% auto;
+    width: 35%;
+    background: transparent;
+    backdrop-filter: blur(100px);
+    box-shadow: 5px 5px 15px orange;
+    border-radius: 10px;
 }

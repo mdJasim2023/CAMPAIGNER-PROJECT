@@ -6,7 +6,7 @@ function Registers(){
     let {data }= useGetAddRegQuery()
     console.log(data);
     return(
-        <div>
+        <div className="">
             <table className="table text-center candiatestab w-75">
                 <thead>
                         <tr>
