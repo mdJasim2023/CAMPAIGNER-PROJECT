@@ -27,7 +27,7 @@ function AllCampaigners(){
                         <tbody>
                             <tr>
                                 <th scope="row">{i+1}</th>
-                                <td><b className="text-danger">{users.username}</b></td>
+                                <td><b className="text-danger">{users.username.toUpperCase()}</b></td>
                                 <td>{users.email}</td>
                                 <td>+91 {users.phone}</td>
                                 <td className="text-danger">{users.role.toUpperCase()}</td>

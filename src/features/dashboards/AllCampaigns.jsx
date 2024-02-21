@@ -9,9 +9,9 @@ function AllCampaigns(){
             {
                 data?.map((details)=>{
                     return(
-                        <div className=" p-3 w-25 m-3 shadow rounded">
-                            <img src={details.imgUrl} width='90%'/>
-                            <h1>{details.title}</h1>
+                        <div className=" p-3 w-25 m-3 shadow rounded text-center">
+                            <img src={details.imgUrl} width='50%'/>
+                            <h3>{details.title}</h3>
                             <p>{details.description}</p>
                             <h6>{details.link}</h6>
                         </div>

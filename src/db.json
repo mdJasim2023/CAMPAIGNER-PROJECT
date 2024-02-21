@@ -137,6 +137,30 @@
       "email": "jnujhn",
       "campaigner": "angel",
       "course": "Java"
+    },
+    {
+      "id": "5f3b",
+      "name": "JasiM",
+      "phone": "6300530399",
+      "email": "jasim127md@gmail.com",
+      "campaigner": "angel",
+      "course": "Java"
+    },
+    {
+      "id": "703e",
+      "name": "Ram",
+      "phone": "9121221121",
+      "email": "jasim127md@gmail.com",
+      "campaigner": "jasim",
+      "course": "Java"
+    },
+    {
+      "id": "fb15",
+      "name": "ahamadhunisa",
+      "phone": "8247771442",
+      "email": "ahamadhunisa@gmail.com",
+      "campaigner": "jasim",
+      "course": "ReactJs"
     }
   ],
   "newcamps": [

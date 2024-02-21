@@ -12,7 +12,6 @@ function Login(){
     var [data] = useLazyCheckloginQuery()
     let nav = useNavigate()
     let dispatch = useDispatch()
-    // console.log(data);
     let formik = useFormik({
         initialValues:{
             username:'',

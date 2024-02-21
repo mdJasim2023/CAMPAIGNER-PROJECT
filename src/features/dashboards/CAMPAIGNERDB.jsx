@@ -17,8 +17,8 @@ function Campaignerdb(){
                 {!isLoading&&
                     data?.map((details)=>{
                         return(
-                            <div className=" p-3 w-25 m-3 border rounded text-light h-50 text-center cbd">
-                                <img src={details.imgUrl} width='80%'/>
+                            <div className=" p-3 w-25 m-3  rounded  h-50 text-center cbd shadow">
+                                <img src={details.imgUrl} width='50%'/>
                                 <h2>{details.title}</h2>
                                 <p>{details.description}</p>
                                 <h6>{details.link}/{userdetails.username}/{details.title}</h6>
