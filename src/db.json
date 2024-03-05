@@ -47,6 +47,14 @@
       "phone": "1212121212",
       "role": "campaigner",
       "password": "karim"
+    },
+    {
+      "id": "eefe",
+      "username": "tarun",
+      "email": "jasim127md@gmail.com",
+      "phone": "6300530399",
+      "role": "campaigner",
+      "password": "112233"
     }
   ],
   "addnewreg": [
@@ -187,6 +195,14 @@
       "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/800px-Python-logo-notext.svg.png",
       "link": "http://localhost:3000/addnewreg",
       "date": 1707896257321
+    },
+    {
+      "id": "b8b8",
+      "title": "ZSDVZDFSGD",
+      "description": "XCBCHB",
+      "imgUrl": "HGHVYU",
+      "link": "VYGYGY",
+      "date": 22
     }
   ]
 }
